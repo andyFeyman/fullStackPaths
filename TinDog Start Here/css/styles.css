@@ -1,0 +1,167 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+    
+}
+
+#title{
+    background-color: #ff4c68;
+    color: white;
+    
+}
+
+.nav-item{
+    padding: 0% 0% 0% 20%;
+}
+
+.container-fluid{
+    padding: 0% 15% 0% 15%;
+}
+
+.navbar{
+    margin-bottom: 5%;
+}
+
+.navbar-brand{
+    font-family: 'Ubuntu-Bold', sans-serif;
+}
+
+
+.guanggaoci{
+    font-family: 'Ubuntu-Bold', sans-serif;
+    font-size: 3.4rem;
+    margin-bottom: 5%;
+}
+
+.iphoneImg{
+    width: 60%;
+    transform: rotate(30deg);
+    z-index: 0;
+    position: relative;
+}
+
+button{
+    margin: 0px 20px 0px;
+}
+
+
+#features{
+    padding: 5% 15% 5% 15%;
+    font-family: 'Ubuntu-Bold', sans-serif;
+    background-color: #fff;
+    z-index: 6;
+    position: relative;
+}
+
+.fa-4x{
+    margin-bottom: 1rem;
+}
+
+.fa-4x:hover{
+    font-size: 5em;
+}
+
+
+/* Carousel  slideshow 幻灯片 */
+
+#testimonials{
+    text-align: center;
+    padding: 5% 15% 5% 15%;
+    background-color:#ff4c68 ;
+}
+
+
+
+.testimonials-h2{
+    color:#fff;
+    font-family: 'Ubuntu-Bold', sans-serif;
+    line-height: 2.5;
+}
+
+.testimonials-img{
+    width: 80px;
+    border-radius: 100%;
+    margin-right: 18px;
+}
+
+em{
+    color:#fff;
+}
+
+
+#press{
+    text-align: center;
+    padding: 5% 10%;
+    background-color:#ff4c68 ;
+}
+
+.press-img{
+    width: 15rem;  
+    margin: 0px 10px;
+}
+
+
+/* <!-- card --- Pricing --> */
+
+#pricing{
+    text-align: center;
+    padding: 5% 15%;
+}
+
+.cardRow{
+    padding: 10px 25px;
+}
+
+
+.card{
+    margin: 0px auto;
+}
+
+h2{
+    font-family: 'Ubuntu-Bold', sans-serif;
+}
+
+
+/* <!-- Call to Action --> */
+
+#cta{
+    background-color: #ff4c68;
+    color: white;
+    padding: 5% 15% 5%;
+    text-align: center;
+}
+
+.cta-h3{
+    font-family: 'Ubuntu-Bold', sans-serif;
+    font-size: 3.4rem;
+    margin-bottom: 5%;
+}
+
+
+/* css of footer */
+
+#footer{
+    background-color: #fff;
+    padding: 3% 15% 3%;
+    text-align: center;
+}
+
+.footer-icon{
+    margin-top: 5%;
+    margin-bottom: 2%;
+    padding-inline: 20px;
+}
+
+.socialIcon{
+    margin: 0px 20px;
+}
+
+
+
+@media (max-width:1020px) {
+
+.iphoneImg{
+    transform: rotate(0deg);
+    margin-top: 20px;
+}
+
+}
