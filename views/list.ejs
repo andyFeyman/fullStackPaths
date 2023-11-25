@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ToDoList</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div id="heading">
+        <h1><%= EcurrentTitle %></h1>
+    </div>
+    
+    <div class="box">
+        
+        <form action="/delete" method="post">
+            <% EjsTodolist.forEach((item)=>{ %>
+                <div class="item">
+                    
+                    <input type="checkbox" name="item" value="<%= item._id %>"  onChange="this.form.submit()">
+                    <p> <%= item.content %></p>
+                </div>  
+            <% }) %>
+            <input type="hidden" name="list" value="<%= EcurrentTitle %>">
+        </form>
+
+
+
+
+        <form class="item" action="/" method="post">
+        
+            <input type="text" name="item" placeholder="add more">
+            <button type="submit" name="list" value="<%= EcurrentTitle %>">+</button>
+        </form>
+    </div>
+
+</body>
+<footer>
+    this is what i done@2023
+</footer>
+</html>
