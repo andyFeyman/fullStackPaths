@@ -1,0 +1,18 @@
+<%- include("partials/header.ejs") %>
+<h1>Home</h1>
+<p><%= homeContent %></p>
+
+
+<a href=""></a>
+
+<% allPosts.forEach((post)=>{ %>
+
+<div>
+    <h3><%= post.title %></h3> 
+    <p class="truncate-text"><%= post.postbody.substr(0,100)+"..." %><a href="/posts/<%= post.title %>">Read More</a></p>
+</div>
+
+<% })%>
+
+<%- include("partials/footer.ejs") %>
+
